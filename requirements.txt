@@ -1,5 +1,5 @@
 absl-py==0.12.0
-bondpy==1.8.5
+bondpy==0.1.11
 cachetools==4.2.1
 camera-calibration==1.15.0
 camera-calibration-parsers==1.11.13
