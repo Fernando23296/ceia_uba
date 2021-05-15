@@ -1,22 +1,31 @@
+absl-py==0.12.0
 actionlib==1.12.1
 angles==1.9.12
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
 bondpy==1.8.5
+cachetools==4.2.1
 camera-calibration==1.15.0
 camera-calibration-parsers==1.11.13
 catkin==0.7.29
 certifi==2020.12.5
-click==8.0.0
+chardet==4.0.0
+click==7.1.2
+cloudpickle==1.6.0
 controller-manager==0.18.3
 controller-manager-msgs==0.18.3
 cv-bridge==1.13.0
 cycler==0.10.0
-decorator==4.4.2
--e git+https://github.com/facebookresearch/detectron@b02a680bf358d3c8bab526a10c8271630c0930cb#egg=Detectron
+Cython==0.29.22
+dataclasses==0.8
+decorator @ file:///tmp/build/80754af9/decorator_1617916966915/work
+detectron2==0.3
 diagnostic-analysis==1.9.7
 diagnostic-common-diagnostics==1.9.7
 diagnostic-updater==1.9.7
 dynamic-reconfigure==1.6.3
 Flask==1.1.2
+future==0.18.2
+fvcore==0.1.3.post20210311
 gazebo-plugins==2.8.7
 gazebo-ros==2.8.7
 gencpp==0.6.5
@@ -25,34 +34,56 @@ genlisp==0.4.16
 genmsg==0.5.16
 gennodejs==2.0.1
 genpy==0.6.14
-graphviz==0.16
-gunicorn==20.0.4
+google-auth==1.27.1
+google-auth-oauthlib==0.4.3
+grpcio==1.36.1
+idna==2.10
 image-geometry==1.13.0
-imageio==2.9.0
+importlib-metadata==3.7.2
 interactive-markers==1.11.5
-itsdangerous==2.0.0
+iopath==0.1.6
+ipykernel @ file:///tmp/build/80754af9/ipykernel_1596206602906/work/dist/ipykernel-5.3.4-py3-none-any.whl
+ipython @ file:///tmp/build/80754af9/ipython_1593447367857/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+itsdangerous==1.1.0
 jedi==0.17.0
-Jinja2==3.0.0
+Jinja2==2.11.3
 joint-state-publisher==1.12.15
+jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1616770841739/work
+jupyter-core @ file:///tmp/build/80754af9/jupyter_core_1612213308682/work
 kdl-parser-py==1.13.1
 kiwisolver==1.3.1
 laser-geometry==1.6.7
-MarkupSafe==2.0.0
-matplotlib==3.1.3
+Markdown==3.3.4
+MarkupSafe==1.1.1
+matplotlib==3.3.4
 message-filters==1.14.10
-networkx==2.5.1
-numpy==1.20.2
-opencv-contrib-python==4.5.2.52
-Pillow==8.2.0
-pygame==2.0.1
+oauthlib==3.1.0
+omegaconf==2.0.6
+parso @ file:///tmp/build/80754af9/parso_1617223946239/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==8.1.0
+portalocker==2.2.1
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1616415428029/work
+protobuf==3.15.6
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pycocotools==2.0.2
+pydot==1.4.2
+Pygments @ file:///tmp/build/80754af9/pygments_1615143339740/work
 pyparsing==2.4.7
+python-dateutil==2.8.1
 python-qt-binding==0.4.3
-PyWavelets==1.1.1
+PyYAML==5.4.1
 pyzmq==20.0.0
 qt-dotgraph==0.4.2
 qt-gui==0.4.2
 qt-gui-cpp==0.4.2
 qt-gui-py-common==0.4.2
+requests==2.25.1
+requests-oauthlib==1.3.0
 resource-retriever==1.12.6
 rosbag==1.14.10
 rosboost-cfg==1.14.9
@@ -106,21 +137,33 @@ rqt-tf-tree==0.6.0
 rqt-top==0.4.8
 rqt-topic==0.4.11
 rqt-web==0.4.8
+rsa==4.7.2
 rviz==1.13.16
-scikit-image==0.18.1
-scipy==1.6.3
+scipy==1.5.4
 sensor-msgs==1.12.8
+six==1.15.0
 smach==2.0.1
 smach-ros==2.0.1
 smclib==1.8.5
+tabulate==0.8.9
+tensorboard-plugin-wit==1.8.0
+termcolor==1.1.0
 tf==1.12.1
 tf-conversions==1.12.1
 tf2-geometry-msgs==0.6.5
 tf2-kdl==0.6.5
 tf2-py==0.6.5
 tf2-ros==0.6.5
-tifffile==2021.4.8
 topic-tools==1.14.10
+torch==1.7.1
+torchvision==0.8.2
+tornado @ file:///tmp/build/80754af9/tornado_1606942266872/work
+tqdm==4.59.0
+traitlets==4.3.3
+typing-extensions==3.7.4.3
 urdfdom-py==0.4.5
-Werkzeug==2.0.0
+wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+Werkzeug==1.0.1
 xacro==1.13.9
+yacs==0.1.8
+zipp==3.4.1
